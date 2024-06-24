@@ -14,7 +14,7 @@ developers by offering a common language and proven best practices.
     - [Builder](./builder)
     - [Factory Method](./factory-method)
     - [Prototype](./prototype)
-    - [Singleton](./connection)
+    - [Singleton](./singleton)
 - Structural Patterns
     - [Adapter](./adapter)
     - [Bridge](./bridge)
