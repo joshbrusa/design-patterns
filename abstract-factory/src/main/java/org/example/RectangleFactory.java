@@ -1,7 +1,4 @@
-package org.example.Factories;
-
-import org.example.Shapes.Rectangle;
-import org.example.Shapes.Shape;
+package org.example;
 
 public class RectangleFactory implements ShapeFactory {
     @Override

@@ -1,7 +1,4 @@
-package org.example.Factories;
-
-import org.example.Shapes.Circle;
-import org.example.Shapes.Shape;
+package org.example;
 
 public class CircleFactory implements ShapeFactory {
     @Override
