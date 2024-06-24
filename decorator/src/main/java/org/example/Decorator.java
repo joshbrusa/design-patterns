@@ -2,6 +2,13 @@ package org.example;
 
 public class Decorator {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        Coffee coffee = new SimpleCoffee();
+        System.out.println(coffee.getDescription() + " $" + coffee.getCost());
+
+        coffee = new MilkDecorator(coffee);
+        System.out.println(coffee.getDescription() + " $" + coffee.getCost());
+
+        coffee = new SugarDecorator(coffee);
+        System.out.println(coffee.getDescription() + " $" + coffee.getCost());
     }
 }

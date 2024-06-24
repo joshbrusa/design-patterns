@@ -18,8 +18,8 @@ developers by offering a common language and proven best practices.
 - Structural Patterns
     - [Adapter](./adapter)
     - [Bridge](./bridge)
-    - [Composite](./composite) (todo)
-    - [Decorator](./decorator) (todo)
+    - [Composite](./composite)
+    - [Decorator](./decorator)
     - [Facade](./facade) (todo)
     - [Flyweight](./flyweight) (todo)
     - [Proxy](./proxy) (todo)
