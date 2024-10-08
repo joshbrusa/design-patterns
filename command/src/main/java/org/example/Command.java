@@ -2,6 +2,16 @@ package org.example;
 
 public class Command {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        Light light = new Light();
+        Action lightOn = new LightOnAction(light);
+        Action lightOff = new LightOffAction(light);
+
+        RemoteControl remote = new RemoteControl();
+
+        remote.setAction(lightOn);
+        remote.pressButton();
+
+        remote.setAction(lightOff);
+        remote.pressButton();
     }
 }
