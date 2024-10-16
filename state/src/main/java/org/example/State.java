@@ -2,6 +2,11 @@ package org.example;
 
 public class State {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        VendingMachine vendingMachine = new VendingMachine();
+
+        vendingMachine.pressButton();  // No coin inserted
+        vendingMachine.insertCoin();   // Coin inserted
+        vendingMachine.pressButton();  // Button pressed, dispensing
+        vendingMachine.dispense();     // Dispensing item
     }
 }
